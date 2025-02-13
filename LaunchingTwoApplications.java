@@ -1,10 +1,6 @@
-package selenium;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class LaunchingTwoApplications {
 	public static void main(String[] args) throws InterruptedException{
 		
@@ -14,7 +10,6 @@ public class LaunchingTwoApplications {
 		
 		Thread.sleep(4000);
 		
-		wbDriver.get("https://flipkart.com");
-		
+		wbDriver.get("https://flipkart.com");	
 	}
 }
